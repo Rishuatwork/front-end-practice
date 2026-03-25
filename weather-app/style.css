@@ -107,3 +107,29 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+@media (max-width: 480px) {
+
+  .card {
+    padding: 32px 24px;
+  }
+
+  .details {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .search {
+    background: #ebfffc;
+    border-radius: 30px;
+    position: relative;
+  }
+
+  .search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
