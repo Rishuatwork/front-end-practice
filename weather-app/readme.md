@@ -65,6 +65,7 @@ Improve UI/UX
 Add extended weather details (like forecast)
 Refactor code for better structure
 Revisit after completing more projects in the series
+
 📌 Note
 
 This is a practice project, not a production-ready application.
