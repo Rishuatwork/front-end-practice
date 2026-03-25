@@ -112,6 +112,7 @@ body {
 
   .card {
     padding: 32px 24px;
+    margin: 32px auto 32px;
   }
 
   .details {
