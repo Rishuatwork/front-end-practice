@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   padding: 25px 35px;
   position: absolute;
   top: 50%;
@@ -92,5 +93,15 @@ body {
 
   100%{
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 18px 20px;
+  }
+
+  .container button {
+    margin: 0;
   }
 }
