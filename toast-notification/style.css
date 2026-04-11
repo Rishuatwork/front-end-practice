@@ -93,3 +93,20 @@ body {
 .toast.invalid::after {
   background: orange;
 }
+
+@media (max-width: 500px) {
+  .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #toastBox {
+    right: 15px;
+  }
+
+  .toast {
+    width: 100%;
+    padding-right: 30px;
+  }
+}
